@@ -3,6 +3,9 @@ titanic.csv
 
 # Py Cache
 __pycache__/
+*.ipynb_checkpoints
+*.pytest_cache
+*.pyc
 
 # OS X
 .DS_Store
