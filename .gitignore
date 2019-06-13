@@ -1,0 +1,8 @@
+# Titanic CSV file
+titanic.csv
+
+# Py Cache
+__pycache__/
+
+# OS X
+.DS_Store
