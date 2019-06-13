@@ -31,6 +31,9 @@ y = titanic_df.iloc[:, 1]
 # Convert gender tosupport DecisionTreeClassifier male = 0, female = 1
 X['Sex'] = [int(sex == 'female') for sex in X['Sex']]
 
+type(X.iloc[0])
+X.iloc[0]
+
 # %%
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.3, random_state=123)
 X_y_train = pd.concat([X_train, y_train], axis=1)
@@ -68,10 +71,10 @@ y_hat_test_cls = classifier.predict(X_test[features])
 print('-------- Predictions with sklearn Train set ---------')
 # print(confusion_matrix(y_train, y_hat_train_cls))
 # print(classification_report(y_train, y_hat_train_cls))
-train_acc = dt.accuracy(y_train, y_hat_train_cls)
+train_skl_acc = dt.accuracy(y_train, y_hat_train_cls)
 print(train_skl_acc)
 print('-------- Predictions with sklearn Test set ---------')
 # print(confusion_matrix(y_test, y_hat_test_cls))
 # print(classification_report(y_test, y_hat_test_cls))
-test_acc = dt.accuracy(y_test, y_hat_test_cls)
+test_skl_acc = dt.accuracy(y_test, y_hat_test_cls)
 print(test_skl_acc)
