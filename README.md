@@ -11,9 +11,14 @@ project.
 # Setup
 In order to test our models, we will use the Titanic dataset available [here](https://www.kaggle.com/c/titanic/data)
 
-
-
 # Theory
+For more detail regarding the Theory behind the Decision tree, I have listed bellow
+a serie of useful links explaining how it works and the variants:
+* https://www.python-course.eu/Decision_Trees.php
+* https://www.datacamp.com/community/tutorials/decision-tree-classification-python
+* Book from Stephen Marsland https://seat.massey.ac.nz/personal/s.r.marsland/MLBook.html
+
+# PRO vs CONS
 
 ## Advantages
 
