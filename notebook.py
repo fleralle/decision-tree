@@ -31,9 +31,6 @@ y = titanic_df.iloc[:, 1]
 # Convert gender tosupport DecisionTreeClassifier male = 0, female = 1
 X['Sex'] = [int(sex == 'female') for sex in X['Sex']]
 
-type(X.iloc[0])
-X.iloc[0]
-
 # %%
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.3, random_state=123)
 X_y_train = pd.concat([X_train, y_train], axis=1)

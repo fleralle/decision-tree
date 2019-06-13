@@ -8,7 +8,12 @@ As we code along, we will dive more in depth in each algorithms.
 Most of the code in made in the DecisionTree.py file at the root of the
 project.
 
+# Setup
 In order to test our models, we will use the Titanic dataset available [here](https://www.kaggle.com/c/titanic/data)
+
+
+
+# Theory
 
 ## Advantages
 
